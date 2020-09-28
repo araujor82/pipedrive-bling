@@ -1,0 +1,31 @@
+{
+  "name": "pipedrive-bling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/araujor82/pipedrive-bling.git"
+  },
+  "keywords": [],
+  "author": "Rafael Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/araujor82/pipedrive-bling/issues"
+  },
+  "homepage": "https://github.com/araujor82/pipedrive-bling#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "request": "^2.88.2",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
