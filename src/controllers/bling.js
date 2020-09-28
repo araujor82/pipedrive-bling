@@ -15,9 +15,8 @@ exports.postPedidos = (pedidos, callback) => {
     Parser.parseToXML(pedidos, function (arrayxml) {
         arrayxml.forEach(element => {
             let uri = base.concat(element);
-            console.log('uri', uri);
-
-            request(uri,function (error, response, body) {
+            
+            request.post(uri,function (error, response, body) {
                 callback(JSON.parse(body));
             });                       
         });               
